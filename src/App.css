@@ -1,0 +1,6 @@
+@import url("https://velvetyne.fr/fonts/pilowlava/Pilowlava-Regular.woff2");
+@import "tailwindcss";
+
+body {
+  font-family: "Pilowlava", sans-serif;
+}
