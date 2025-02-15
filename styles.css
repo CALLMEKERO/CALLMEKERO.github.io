@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Pilowlava";
+  src: url("fonts/Pilowlava-Regular.woff2") format("woff2"),
+    url("fonts/Pilowlava-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pilowlava", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(270deg, #1a1a1a, #2c3e50, #34495e, #1a1a1a);
+  background-size: 600% 600%;
+  animation: gradientBG 15s ease infinite;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.content h1 {
+  font-size: 6em;
+  margin-bottom: 0em;
+}
+
+.content p {
+  font-size: 2em;
+  margin-top: -0.5em;
+}
+
+.links {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #ff0000;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.5em;
+}
+
+.clock {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.5em;
+  color: white;
+  width: 6em; /* Fixed width to prevent size change */
+  text-align: center; /* Center the text within the fixed width */
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
