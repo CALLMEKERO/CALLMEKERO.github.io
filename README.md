@@ -14,5 +14,5 @@ Welcome to my portfolio! This website showcases my projects, skills, and experie
 ✅ Smooth Navigation  
 
 ## 📩 Contact  
-📧 Email: your-email@example.com  
+📧 Email: callmekero69@gmail.com  
 📸 Instagram: [@ii_kero](https://instagram.com/ii_kero)  
